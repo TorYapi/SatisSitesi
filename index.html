@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TORSHOP</title>
+    <meta name="description" content="TORSHOP - Online Alışveriş Platformu" />
+    <meta name="author" content="TORSHOP" />
+    <link rel="icon" href="/favicon.png" type="image/png">
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'self';
+      script-src 'self' 'unsafe-inline' 'unsafe-eval';
+      style-src 'self' 'unsafe-inline';
+      img-src 'self' data: https: blob:;
+      font-src 'self' data:;
+      connect-src 'self' https://rfzlluqlzjxortnptunh.supabase.co wss://rfzlluqlzjxortnptunh.supabase.co;
+      frame-ancestors 'self' https://lovable.dev https://*.lovable.dev;
+      base-uri 'self';
+      object-src 'none';
+    " />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+
+    <meta property="og:title" content="TORSHOP" />
+    <meta property="og:description" content="TORSHOP - Online Alışveriş Platformu" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/favicon.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TORSHOP" />
+    <meta name="twitter:description" content="TORSHOP - Online Alışveriş Platformu" />
+    <meta name="twitter:image" content="/favicon.png" />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
